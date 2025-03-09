@@ -29,9 +29,9 @@ const Hero = () => {
               <p className="text-sm md:text-sm text-white/90">Nation wide, from all related professions</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold">80%</p>
-              <p className="text-sm md:text-base font-medium">Family & OB/Gyn</p>
-              <p className="text-sm md:text-sm text-white/90">Feel inadequate treating menopause*</p>
+              <p className="text-3xl md:text-4xl font-bold">$10B</p>
+              <p className="text-sm md:text-base font-medium">Spent in 2024*</p>
+              <p className="text-sm md:text-sm text-white/90">On non-medical treatment by women</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold">$3-7K</p>

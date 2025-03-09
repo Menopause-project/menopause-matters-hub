@@ -1,6 +1,7 @@
 
 import React from 'react';
 import CaregiverForm from './CaregiverForm';
+import TestimonialCarousel from './TestimonialCarousel';
 
 const JoinSection = () => {
   return (
@@ -21,12 +22,8 @@ const JoinSection = () => {
               After submitting your details, a ConnectU expert will guide you through personalizing the platform 
               to complement your specific approach to care, ensuring it enhances—never replaces—your expertise.
             </p>
-            <div className="bg-white p-4 rounded-lg border-l-4 border-connectu-purple shadow-md">
-              <p className="text-gray-700 italic">
-                "ConnectU has transformed how I deliver care. I can now offer a more comprehensive approach while maintaining
-                complete control over all treatment decisions. My patients have never been more satisfied."
-              </p>
-              <p className="text-connectu-purple font-semibold mt-2">— Dr. Sarah Johnson, Nutritionist</p>
+            <div className="h-64 md:h-72">
+              <TestimonialCarousel />
             </div>
           </div>
           <div>
