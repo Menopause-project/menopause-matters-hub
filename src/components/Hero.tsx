@@ -20,17 +20,17 @@ const Hero = () => {
         <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-medium">
           Expand Your Practice with Menopause Expert Care
         </p>
-        <div className="bg-white/10 p-6 rounded-lg mb-8 backdrop-blur-sm">
-          <h2 className="text-xl md:text-2xl font-semibold mb-3">The Menopause Challenge</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 text-center mb-6">
-            <ul className="text-left list-disc pl-6 space-y-2">
-              <li>80M Women in Menopause</li>
-              <li>In the U.S., 1.5M women enter menopause annually</li>
-              <li>Only 2000 certified specialists nationwide</li>
+        <div className="bg-white/10 p-6 md:p-8 rounded-lg mb-8 backdrop-blur-sm border border-white/20 shadow-xl transform scale-105">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-connectu-cream">The Menopause Challenge</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 text-center mb-6">
+            <ul className="text-left list-disc pl-6 space-y-3 text-lg">
+              <li className="font-medium">80M Women in Menopause</li>
+              <li className="font-medium">In the U.S., 1.5M women enter menopause annually</li>
+              <li className="font-medium">Only 2000 certified specialists nationwide</li>
             </ul>
-            <ul className="text-left list-disc pl-6 space-y-2">
-              <li>Over $10B spent in 2024 on non-medical treatments by women</li>
-              <li>More than 4 fields of care are required for comprehensive support</li>
+            <ul className="text-left list-disc pl-6 space-y-3 text-lg">
+              <li className="font-medium">Over $10B spent in 2024 on non-medical treatments by women</li>
+              <li className="font-medium">More than 4 fields of care are required for comprehensive support</li>
             </ul>
           </div>
           <p className="text-xs text-white/70 mt-4 text-left">
@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
         </div>
         <Link to="join-form" smooth={true} duration={500}>
-          <Button className="bg-white text-connectu-purple hover:bg-connectu-cream hover:text-connectu-purple px-8 py-6 text-lg relative z-10 shadow-lg">
+          <Button className="bg-white text-connectu-purple hover:bg-connectu-cream hover:text-connectu-purple px-8 py-6 text-lg relative z-10 shadow-lg font-semibold">
             Transform Your Practice Today
           </Button>
         </Link>
