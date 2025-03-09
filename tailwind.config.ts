@@ -26,8 +26,8 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				connectu: {
-					purple: '#7B20F7',
-					lightpurple: '#9B58F8',
+					blue: '#1E3A8A', // Royal blue
+					lightblue: '#3B82F6',
 					cream: '#F5F2EF',
 					beige: '#F8F6F3',
 				},

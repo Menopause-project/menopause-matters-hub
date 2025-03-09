@@ -8,27 +8,25 @@ const JoinSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-connectu-purple">Be Part of Our Community</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-connectu-blue">Lead The Transformation in Menopause Care</h2>
             <p className="text-gray-600 mb-6">
-              Join us in building a future where every woman receives the holistic menopause care she deserves. 
-              Become part of a vibrant community of caregivers dedicated to supporting women's health and transforming 
-              the menopause journey.
+              You're invited to pioneer a new approach to menopause care—one that places your expertise at the center while
+              expanding your capabilities through technology and a trusted network of specialists.
             </p>
             <p className="text-gray-600 mb-6">
-              <strong>The ConnectU Difference:</strong> Our platform follows the 80-20 principle - we provide 80% of 
-              the expertise and resources, while you maintain 100% control over the crucial 20% of decision-making that 
-              defines your unique practice.
+              <strong>The ConnectU Promise:</strong> Our 80-20 platform provides you with comprehensive tools and insights 
+              while ensuring you maintain 100% control over all clinical decisions that define your unique practice.
             </p>
             <p className="text-gray-600 mb-6">
-              After submitting your details, you'll be connected with ConnectU experts who will guide you through 
-              the onboarding process and customize the platform to complement your specific approach to care.
+              After submitting your details, a ConnectU expert will guide you through personalizing the platform 
+              to complement your specific approach to care, ensuring it enhances—never replaces—your expertise.
             </p>
-            <div className="bg-connectu-cream p-4 rounded-lg border-l-4 border-connectu-purple">
+            <div className="bg-connectu-cream p-4 rounded-lg border-l-4 border-connectu-blue">
               <p className="text-gray-700 italic">
-                "ConnectU has transformed how I deliver care to my menopausal patients. The platform enhances my 
-                expertise while keeping me firmly in the driver's seat of all clinical decisions."
+                "ConnectU has transformed how I deliver care. I can now offer a more comprehensive approach while maintaining
+                complete control over all treatment decisions. My patients have never been more satisfied."
               </p>
-              <p className="text-connectu-purple font-semibold mt-2">— Dr. Sarah Johnson, Nutritionist</p>
+              <p className="text-connectu-blue font-semibold mt-2">— Dr. Sarah Johnson, Nutritionist</p>
             </div>
           </div>
           <div>
