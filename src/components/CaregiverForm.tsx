@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -15,6 +15,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
+import { Loader2 } from 'lucide-react';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -30,6 +31,8 @@ const formSchema = z.object({
 });
 
 const CaregiverForm = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -40,13 +43,42 @@ const CaregiverForm = () => {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Form submitted!",
-      description: "Thank you for your interest. We'll be in touch soon.",
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
+    
+    try {
+      // Send form data to Formspree
+      const response = await fetch('https://formspree.io/f/info@connectu.health', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          ...values,
+          _subject: `ConnectU Interest: ${values.name} (${values.profession})`,
+        })
+      });
+      
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        toast({
+          title: "Form submitted!",
+          description: "Thank you for your interest. We'll be in touch soon.",
+        });
+        form.reset();
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast({
+        title: "Submission error",
+        description: "There was a problem submitting your form. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -123,9 +155,17 @@ const CaregiverForm = () => {
             
             <Button 
               type="submit" 
+              disabled={isSubmitting}
               className="w-full bg-connectu-purple hover:bg-connectu-lightpurple text-white font-medium shadow-md"
             >
-              Submit
+              {isSubmitting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Submitting...
+                </>
+              ) : (
+                "Submit"
+              )}
             </Button>
           </form>
         </Form>
