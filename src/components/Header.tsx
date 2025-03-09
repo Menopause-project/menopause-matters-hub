@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -13,12 +14,14 @@ const Header = () => {
         />
       </div>
       <div>
-        <Button 
-          variant="outline" 
-          className="bg-white text-connectu-purple border-connectu-purple hover:bg-connectu-purple hover:text-white transition-all"
-        >
-          Join Our Platform
-        </Button>
+        <Link to="join-form" smooth={true} duration={500}>
+          <Button 
+            variant="outline" 
+            className="bg-white text-connectu-purple border-connectu-purple hover:bg-connectu-purple hover:text-white transition-all"
+          >
+            Join Our Platform
+          </Button>
+        </Link>
       </div>
     </header>
   );

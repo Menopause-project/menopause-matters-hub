@@ -4,7 +4,7 @@ import CaregiverForm from './CaregiverForm';
 
 const JoinSection = () => {
   return (
-    <section className="py-12 px-6 md:px-10 mb-16 bg-gradient-to-br from-connectu-purple/10 to-connectu-beige rounded-lg">
+    <section id="join-form" className="py-12 px-6 md:px-10 mb-16 bg-gradient-to-br from-connectu-purple/10 to-connectu-beige rounded-lg">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>

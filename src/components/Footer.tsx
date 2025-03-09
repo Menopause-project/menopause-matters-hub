@@ -17,7 +17,7 @@ const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="mb-2">Email: info@connectu.health</p>
-            <p className="text-sm">© 2023 ConnectU Health. All rights reserved.</p>
+            <p className="text-sm">© 2025 ConnectU Health. All Rights Reserved.</p>
           </div>
         </div>
       </div>
