@@ -34,14 +34,14 @@ const Hero = () => {
               <p className="text-sm md:text-sm text-white/90">On non-medical treatment by women</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold">$3-7K</p>
-              <p className="text-sm md:text-base font-medium">Annual Spending</p>
-              <p className="text-sm md:text-sm text-white/90">By women suffering moderate to severe symptoms**</p>
+              <p className="text-3xl md:text-4xl font-bold">4+</p>
+              <p className="text-sm md:text-base font-medium">Fields of Care</p>
+              <p className="text-sm md:text-sm text-white/90">Needed for one woman's comprehensive support**</p>
             </div>
           </div>
           <p className="text-xs text-white/70 mt-4 text-left">
             *AARP Report 10/2024 The Impact of Menopause at the workplace<br />
-            **See below the employer cut in these expenses
+            **OB/Gyn, Nutrition, Psychology, and Pelvic Floor Physiotherapy
           </p>
         </div>
         <Link to="join-form" smooth={true} duration={500}>
