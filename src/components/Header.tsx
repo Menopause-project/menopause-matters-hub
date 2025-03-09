@@ -14,14 +14,14 @@ const Header = () => {
         <img 
           src="/lovable-uploads/df317a40-9d07-49af-9d4c-07e99e28b320.png" 
           alt="ConnectU Health Logo" 
-          className="h-24 md:h-28" // Increased logo size even more
+          className="h-28 md:h-32 drop-shadow-lg" // Increased logo size and added drop shadow
         />
       </div>
       <div className="relative z-10">
         <Link to="join-form" smooth={true} duration={500}>
           <Button 
             variant="outline" 
-            className="bg-white text-connectu-purple border-connectu-purple hover:bg-connectu-purple hover:text-white transition-all"
+            className="bg-white text-connectu-purple border-connectu-purple hover:bg-connectu-purple hover:text-white transition-all font-medium shadow-md"
           >
             Join Our Platform
           </Button>

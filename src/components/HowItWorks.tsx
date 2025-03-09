@@ -8,10 +8,10 @@ const HowItWorks = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-connectu-purple">How We Support Your Mission</h2>
         <p className="text-center mb-6 text-gray-600 max-w-3xl mx-auto">
-          Our platform seamlessly integrates with your practice, providing valuable tools while preserving your autonomy in decision-making.
+          Our platform integrates seamlessly with your practice, offering powerful tools while preserving your autonomy in decision-making.
         </p>
         <p className="text-center mb-12 text-gray-700 max-w-3xl mx-auto italic">
-          "Women deserve better menopause care. Caregivers deserve better tools. Together, we're making both a reality."
+          "Women deserve better menopause care. Caregivers deserve better tools. Together, we're making that a reality."
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -19,8 +19,8 @@ const HowItWorks = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-3 text-connectu-purple">Holistic Patient Profiles</h3>
               <p className="text-gray-600">
-                Access comprehensive health assessments that reveal the full picture of your patient's menopause journey,
-                while you maintain control of interpretation and care decisions.
+                Access detailed health assessments that capture the complete picture of your patients' menopause journeys, 
+                while you retain full control over interpretation and clinical decisions.
               </p>
             </CardContent>
           </Card>
@@ -29,8 +29,8 @@ const HowItWorks = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-3 text-connectu-purple">Your Care, Enhanced</h3>
               <p className="text-gray-600">
-                Our AI-assisted recommendations support your expertise, allowing you to craft personalized care plans
-                that remain aligned with your professional judgment and approach.
+                Our AI-assisted recommendations augment your expertise, empowering you to create personalized care plans 
+                that align seamlessly with your clinical judgment.
               </p>
             </CardContent>
           </Card>
@@ -39,8 +39,8 @@ const HowItWorks = () => {
             <CardContent className="pt-6">
               <h3 className="text-xl font-semibold mb-3 text-connectu-purple">Seamless Specialist Network</h3>
               <p className="text-gray-600">
-                Effortlessly connect your patients with trusted specialists in complementary fields, creating a 
-                coordinated care experience while maintaining your central role.
+                Effortlessly connect your patients with trusted specialists in complementary fields, ensuring a 
+                coordinated care experience with you at the center.
               </p>
             </CardContent>
           </Card>

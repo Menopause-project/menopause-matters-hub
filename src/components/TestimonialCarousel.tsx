@@ -28,9 +28,9 @@ const TestimonialCarousel = () => {
       textColor: "text-connectu-purple"
     },
     {
-      quote: "ConnectU support pushed me to keep doing the work. It was easy to fit it into my life cause I quickly so a changer for the better",
+      quote: "ConnectU's support empowered me to continue my work. It integrated seamlessly into my busy schedule, and I quickly saw a positive transformation.",
       name: "G",
-      title: "55 ER NURSE",
+      title: "55 ER Nurse",
       backgroundColor: "bg-connectu-purple",
       textColor: "text-white"
     },
