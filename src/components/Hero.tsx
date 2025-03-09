@@ -5,7 +5,18 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <section className="bg-white border border-connectu-cream shadow-md text-gray-800 py-16 px-6 md:px-10 rounded-lg mb-16 relative overflow-hidden">
+    <section className="bg-white border border-connectu-purple shadow-md text-gray-800 py-16 px-6 md:px-10 rounded-lg mb-16 relative overflow-hidden">
+      {/* Purple decorative frame elements */}
+      <div className="absolute inset-0 border-4 border-connectu-purple rounded-lg opacity-20"></div>
+      <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-connectu-purple rounded-tl-lg"></div>
+      <div className="absolute top-0 right-0 w-20 h-20 border-t-4 border-r-4 border-connectu-purple rounded-tr-lg"></div>
+      <div className="absolute bottom-0 left-0 w-20 h-20 border-b-4 border-l-4 border-connectu-purple rounded-bl-lg"></div>
+      <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-connectu-purple rounded-br-lg"></div>
+      
+      {/* Diagonal purple accent lines */}
+      <div className="absolute top-0 right-0 w-32 h-2 bg-connectu-purple opacity-40 rotate-45 translate-x-10 -translate-y-5"></div>
+      <div className="absolute bottom-0 left-0 w-32 h-2 bg-connectu-purple opacity-40 rotate-45 -translate-x-10 translate-y-5"></div>
+      
       {/* Background graphic elements - subtle beige patterns */}
       <div className="absolute top-0 right-0 w-80 h-80 bg-connectu-cream opacity-40 rounded-full -translate-y-1/2 translate-x-1/4"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-connectu-beige opacity-30 rounded-full translate-y-1/3 -translate-x-1/4"></div>
@@ -18,7 +29,7 @@ const Hero = () => {
         <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-medium text-gray-700">
           Expand Your Practice with Menopause Expert Care
         </p>
-        <div className="bg-connectu-beige p-6 md:p-8 rounded-lg mb-8 border border-connectu-cream shadow-md">
+        <div className="bg-connectu-beige p-6 md:p-8 rounded-lg mb-8 border border-connectu-purple/20 shadow-md">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-connectu-purple">The Menopause Challenge</h2>
           
           <div className="grid grid-cols-2 gap-x-6 md:gap-x-10 gap-y-4 mb-6">

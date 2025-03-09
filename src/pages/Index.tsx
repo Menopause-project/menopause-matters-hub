@@ -17,6 +17,11 @@ const Index = () => {
       <div className="fixed top-1/2 right-1/4 w-[200px] h-[200px] bg-connectu-cream opacity-20 rounded-full -translate-y-1/2 blur-md"></div>
       <div className="fixed top-1/3 left-1/4 w-[150px] h-[150px] bg-connectu-beige opacity-30 rounded-full blur-md"></div>
       
+      {/* New: Purple accent elements */}
+      <div className="fixed top-1/4 right-0 w-[100px] h-[300px] bg-connectu-purple opacity-10 rounded-l-full"></div>
+      <div className="fixed bottom-1/4 left-0 w-[100px] h-[300px] bg-connectu-purple opacity-10 rounded-r-full"></div>
+      <div className="fixed top-0 left-1/2 w-[150px] h-[150px] bg-connectu-purple opacity-5 rounded-full -translate-x-1/2"></div>
+      
       <Header />
       <main className="flex-grow container mx-auto px-4 relative z-10">
         <Hero />
