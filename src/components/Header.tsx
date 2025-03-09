@@ -8,9 +8,9 @@ const Header = () => {
     <header className="py-4 px-6 md:px-10 flex justify-between items-center">
       <div className="flex items-center">
         <img 
-          src="/lovable-uploads/621caa2c-83d9-430d-a721-3e84d7498486.png" 
+          src="/lovable-uploads/df317a40-9d07-49af-9d4c-07e99e28b320.png" 
           alt="ConnectU Health Logo" 
-          className="h-16 md:h-20" // Increased logo size
+          className="h-20 md:h-24" // Increased logo size even more
         />
       </div>
       <div>

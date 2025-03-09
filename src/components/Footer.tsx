@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <img 
-              src="/lovable-uploads/446f6360-ab16-4d54-9fd7-5afc1aabc306.png" 
+              src="/lovable-uploads/df317a40-9d07-49af-9d4c-07e99e28b320.png" 
               alt="ConnectU Health Logo" 
-              className="h-10"
+              className="h-12"
             />
             <p className="mt-2 text-sm">Taking Control of Menopause</p>
           </div>
