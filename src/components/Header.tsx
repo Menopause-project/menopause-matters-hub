@@ -10,7 +10,7 @@ const Header = () => {
         <img 
           src="/lovable-uploads/621caa2c-83d9-430d-a721-3e84d7498486.png" 
           alt="ConnectU Health Logo" 
-          className="h-12 md:h-16"
+          className="h-16 md:h-20" // Increased logo size
         />
       </div>
       <div>

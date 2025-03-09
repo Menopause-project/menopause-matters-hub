@@ -2,6 +2,7 @@
 import React from 'react';
 import { Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-scroll';
 
 interface TeamMember {
   name: string;
@@ -16,8 +17,8 @@ const TeamBanner = () => {
     {
       name: "Dana Shoushan-Whol",
       title: "CEO",
-      image: "/lovable-uploads/b72cecc8-b1fd-4aa9-956f-8bff2c426e65.png",
-      linkedIn: "https://linkedin.com/in/dana-shoushan-whol",
+      image: "/lovable-uploads/6b9007d0-e3fd-4d47-b994-083e6adf699a.png",
+      linkedIn: "https://www.linkedin.com/in/dana-shoushan-whol-459b95a/",
       bio: [
         "A global strategy leader with over 20 years of experience driving innovation around impact.",
         "She has proven ability to initiate and strategically leverage partnerships to build successful, scalable businesses."
@@ -26,8 +27,8 @@ const TeamBanner = () => {
     {
       name: "Dr. Betty Shachar",
       title: "Chief Medical",
-      image: "/lovable-uploads/b72cecc8-b1fd-4aa9-956f-8bff2c426e65.png",
-      linkedIn: "https://linkedin.com/in/dr-betty-shachar",
+      image: "/lovable-uploads/d17e3a1e-2870-4063-b47e-d0e0f25da0a6.png",
+      linkedIn: "https://www.linkedin.com/in/betty-shachar-4b714831/",
       bio: [
         "An OB/Gyn for over 15 years. Certified by the Menopause American Association.",
         "A Stanford Fellowship graduate, and a contributor at Maccabi Healthcare and Top Ichilov, empowering women to take control of their health."
@@ -36,8 +37,8 @@ const TeamBanner = () => {
     {
       name: "Nadav Binyamin Helfman",
       title: "CTO",
-      image: "/lovable-uploads/b72cecc8-b1fd-4aa9-956f-8bff2c426e65.png",
-      linkedIn: "https://linkedin.com/in/nadav-binyamin-helfman",
+      image: "/lovable-uploads/54a6280c-64d5-4850-9eee-85a222c700fd.png",
+      linkedIn: "https://www.linkedin.com/in/nadavhelfman",
       bio: [
         "Holding a robust background in SW development and system architecture.",
         "An experienced data scientist for several leading startups including selling a startup to SAP and working for Microsoft R&D."
@@ -84,11 +85,11 @@ const TeamBanner = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="#join-form">
+          <Link to="join-form" smooth={true} duration={500}>
             <Button className="bg-connectu-purple text-white hover:bg-connectu-purple/90">
               Connect With Our Team
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
