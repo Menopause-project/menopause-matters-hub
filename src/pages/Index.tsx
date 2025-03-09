@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Benefits from '@/components/Benefits';
 import HowItWorks from '@/components/HowItWorks';
+import TeamBanner from '@/components/TeamBanner';
 import JoinSection from '@/components/JoinSection';
 import Footer from '@/components/Footer';
 
@@ -15,6 +16,7 @@ const Index = () => {
         <Hero />
         <Benefits />
         <HowItWorks />
+        <TeamBanner />
         <JoinSection />
       </main>
       <Footer />

@@ -21,22 +21,22 @@ const Hero = () => {
             <div>
               <p className="text-3xl md:text-4xl font-bold">80M</p>
               <p className="text-sm md:text-base font-medium">Women in Menopause</p>
-              <p className="text-xs md:text-sm text-white/80">In the U.S. with 1.5M entering annually</p>
+              <p className="text-sm md:text-sm text-white/90">In the U.S. with 1.5M entering annually</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold">2000</p>
               <p className="text-sm md:text-base font-medium">Vs. Certified Specialists</p>
-              <p className="text-xs md:text-sm text-white/80">Nation wide, from all related professions</p>
+              <p className="text-sm md:text-sm text-white/90">Nation wide, from all related professions</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold">80%</p>
               <p className="text-sm md:text-base font-medium">Family & OB/Gyn</p>
-              <p className="text-xs md:text-sm text-white/80">Feel inadequate treating menopause*</p>
+              <p className="text-sm md:text-sm text-white/90">Feel inadequate treating menopause*</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold">$3-7K</p>
               <p className="text-sm md:text-base font-medium">Annual Spending</p>
-              <p className="text-xs md:text-sm text-white/80">By women suffering moderate to severe symptoms**</p>
+              <p className="text-sm md:text-sm text-white/90">By women suffering moderate to severe symptoms**</p>
             </div>
           </div>
           <p className="text-xs text-white/70 mt-4 text-left">
