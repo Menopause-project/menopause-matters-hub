@@ -20,20 +20,32 @@ const Hero = () => {
         <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-medium">
           Expand Your Practice with Menopause Expert Care
         </p>
-        <div className="bg-white/10 p-6 md:p-8 rounded-lg mb-8 backdrop-blur-sm border border-white/20 shadow-xl transform scale-105">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-connectu-cream">The Menopause Challenge</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 text-center mb-6">
-            <ul className="text-left list-disc pl-6 space-y-3 text-lg">
-              <li className="font-medium">80M Women in Menopause</li>
-              <li className="font-medium">In the U.S., 1.5M women enter menopause annually</li>
-              <li className="font-medium">Only 2000 certified specialists nationwide</li>
-            </ul>
-            <ul className="text-left list-disc pl-6 space-y-3 text-lg">
-              <li className="font-medium">Over $10B spent in 2024 on non-medical treatments by women</li>
-              <li className="font-medium">More than 4 fields of care are required for comprehensive support</li>
-            </ul>
+        <div className="bg-white/15 p-6 md:p-8 rounded-lg mb-8 border border-white/25 shadow-xl transform scale-105">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white">The Menopause Challenge</h2>
+          
+          <div className="grid grid-cols-2 gap-x-6 md:gap-x-10 gap-y-4 mb-6">
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-connectu-cream mb-2">80M</div>
+              <div className="text-md md:text-lg font-medium">Women in Menopause</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-connectu-cream mb-2">$10B+</div>
+              <div className="text-md md:text-lg font-medium">Spent in 2024 on non-medical treatments</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-connectu-cream mb-2">2000</div>
+              <div className="text-md md:text-lg font-medium">Certified specialists nationwide</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="text-3xl md:text-4xl font-bold text-connectu-cream mb-2">4+</div>
+              <div className="text-md md:text-lg font-medium">Fields of care required for support</div>
+            </div>
           </div>
-          <p className="text-xs text-white/70 mt-4 text-left">
+          
+          <p className="text-xs text-white/80 mt-6 text-center">
             AARP Report 10/2024 – The Impact of Menopause in the Workplace<br />
             (Fields include OB/Gyn, Nutrition, Psychology, and Pelvic Floor Physiotherapy)
           </p>
