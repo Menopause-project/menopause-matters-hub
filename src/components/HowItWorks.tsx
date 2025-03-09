@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const HowItWorks = () => {
   return (
-    <section className="py-12 px-6 md:px-10 mb-16">
+    <section className="py-12 px-6 md:px-10 mb-16 bg-connectu-soffowhite rounded-lg">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-connectu-purple">How We Support Your Mission</h2>
         <p className="text-center mb-6 text-gray-600 max-w-3xl mx-auto">

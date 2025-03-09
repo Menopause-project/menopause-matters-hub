@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -27,8 +28,11 @@ export default {
 				connectu: {
 					blue: '#6F3BFF', // Updated to the purple-blue RGB: 111, 59, 255
 					lightblue: '#8B5CF6', // Adjusted for consistency
-					cream: '#F5F2EF',
-					beige: '#F8F6F3',
+					cream: '#F5F2EF',    // Off-white cream
+					beige: '#F8F6F3',    // Soft beige
+					lightbeige: '#FAF8F5', // Lighter beige for backgrounds
+					offwhite: '#F9F8F6',  // Warm off-white
+					soffowhite: '#FEFCFA', // Softer off-white
 					purple: '#6F3BFF', // Added the same purple for consistency
 				},
 				primary: {

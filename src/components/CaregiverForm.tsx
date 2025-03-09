@@ -82,7 +82,7 @@ const CaregiverForm = () => {
   }
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
+    <div className="bg-connectu-cream p-6 rounded-lg shadow-md relative overflow-hidden">
       {/* Background graphic elements */}
       <div className="absolute top-0 right-0 w-24 h-24 bg-connectu-purple/5 rounded-full translate-x-1/3 -translate-y-1/3"></div>
       <div className="absolute bottom-0 left-0 w-32 h-32 bg-connectu-purple/5 rounded-full -translate-x-1/3 translate-y-1/3"></div>

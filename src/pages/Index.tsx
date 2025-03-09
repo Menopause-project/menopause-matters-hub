@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col relative overflow-hidden">
+    <div className="bg-connectu-offwhite min-h-screen flex flex-col relative overflow-hidden">
       {/* Background graphic elements for the entire page */}
       <div className="fixed top-0 right-0 w-[600px] h-[600px] bg-connectu-purple opacity-5 rounded-full -translate-y-1/3 translate-x-1/3 blur-3xl"></div>
       <div className="fixed bottom-0 left-0 w-[500px] h-[500px] bg-connectu-blue opacity-5 rounded-full translate-y-1/4 -translate-x-1/4 blur-2xl"></div>
