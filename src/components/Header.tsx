@@ -15,7 +15,7 @@ const Header = () => {
       <div>
         <Button 
           variant="outline" 
-          className="bg-white text-connectu-blue border-connectu-blue hover:bg-connectu-blue hover:text-white transition-all"
+          className="bg-white text-connectu-purple border-connectu-purple hover:bg-connectu-purple hover:text-white transition-all"
         >
           Join Our Platform
         </Button>

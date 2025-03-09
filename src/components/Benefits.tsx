@@ -1,19 +1,20 @@
 
 import React from 'react';
 import BenefitCard from './BenefitCard';
-import { Zap, TrendingUp, Users } from 'lucide-react';
+import { Zap, TrendingUp, Users, MessageSquareHeart } from 'lucide-react';
 
 const Benefits = () => {
   return (
     <section className="py-12 px-6 md:px-10 bg-connectu-beige rounded-lg mb-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-connectu-blue">Elevate Your Practice</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-connectu-purple">Why ConnectU? Why Through Caregivers?</h2>
         <p className="text-center mb-12 text-gray-600 max-w-3xl mx-auto">
-          Our platform enhances your expertise while you maintain full control of all clinical decisions.
-          The 80-20 approach gives you the tools you need, while keeping you firmly in the driver's seat.
+          We believe that caregivers like you are the key to transforming menopause care. Our 80-20 platform enhances your expertise 
+          while you maintain full control of all clinical decisions. Together, we can address the significant gap in comprehensive
+          menopause support.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <BenefitCard 
             icon={Zap}
             title="Comprehensive Patient Insights"
@@ -28,6 +29,11 @@ const Benefits = () => {
             icon={Users}
             title="Trusted Referral Network"
             description="Connect with vetted specialists across nutrition, fitness, and mental health to provide comprehensive care while maintaining your central role."
+          />
+          <BenefitCard 
+            icon={MessageSquareHeart}
+            title="Empower Women's Health"
+            description="Be part of a movement that addresses the critical gap in menopause care, making a meaningful difference in women's lives during this significant transition."
           />
         </div>
       </div>
