@@ -82,10 +82,10 @@ const CaregiverForm = () => {
   }
 
   return (
-    <div className="bg-connectu-cream p-6 rounded-lg shadow-md relative overflow-hidden">
+    <div className="bg-white p-6 rounded-lg shadow-md relative overflow-hidden">
       {/* Background graphic elements */}
-      <div className="absolute top-0 right-0 w-24 h-24 bg-connectu-purple/5 rounded-full translate-x-1/3 -translate-y-1/3"></div>
-      <div className="absolute bottom-0 left-0 w-32 h-32 bg-connectu-purple/5 rounded-full -translate-x-1/3 translate-y-1/3"></div>
+      <div className="absolute top-0 right-0 w-24 h-24 bg-connectu-beige opacity-40 rounded-full translate-x-1/3 -translate-y-1/3"></div>
+      <div className="absolute bottom-0 left-0 w-32 h-32 bg-connectu-beige opacity-40 rounded-full -translate-x-1/3 translate-y-1/3"></div>
       
       <div className="relative z-10">
         <h3 className="text-xl font-bold mb-4 text-connectu-purple">Join Our Community</h3>
@@ -156,7 +156,7 @@ const CaregiverForm = () => {
             <Button 
               type="submit" 
               disabled={isSubmitting}
-              className="w-full bg-connectu-purple hover:bg-connectu-lightpurple text-white font-medium shadow-md"
+              className="w-full bg-connectu-purple hover:bg-connectu-purple/90 text-white font-medium shadow-md"
             >
               {isSubmitting ? (
                 <>

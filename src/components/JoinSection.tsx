@@ -5,10 +5,10 @@ import TestimonialCarousel from './TestimonialCarousel';
 
 const JoinSection = () => {
   return (
-    <section id="join-form" className="py-12 px-6 md:px-10 mb-16 bg-gradient-to-br from-connectu-cream to-connectu-softwhite rounded-lg relative overflow-hidden">
+    <section id="join-form" className="py-12 px-6 md:px-10 mb-16 bg-connectu-beige rounded-lg shadow-md relative overflow-hidden">
       {/* Background graphic elements */}
-      <div className="absolute top-0 right-0 w-60 h-60 bg-connectu-purple opacity-5 rounded-full translate-x-1/3 -translate-y-1/4"></div>
-      <div className="absolute bottom-0 left-0 w-48 h-48 bg-connectu-purple opacity-5 rounded-full translate-y-1/4 -translate-x-1/4"></div>
+      <div className="absolute top-0 right-0 w-60 h-60 bg-white opacity-40 rounded-full translate-x-1/3 -translate-y-1/4"></div>
+      <div className="absolute bottom-0 left-0 w-48 h-48 bg-white opacity-40 rounded-full translate-y-1/4 -translate-x-1/4"></div>
       
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">

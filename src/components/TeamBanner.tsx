@@ -46,10 +46,10 @@ const TeamBanner = () => {
   ];
 
   return (
-    <section className="py-12 px-6 md:px-10 mb-16 bg-connectu-beige rounded-lg relative overflow-hidden">
+    <section className="py-12 px-6 md:px-10 mb-16 bg-white border border-connectu-cream rounded-lg shadow-md relative overflow-hidden">
       {/* Background graphic elements */}
-      <div className="absolute top-0 right-0 w-60 h-60 bg-connectu-purple opacity-5 rounded-full translate-x-1/3 -translate-y-1/4"></div>
-      <div className="absolute bottom-0 left-0 w-48 h-48 bg-connectu-purple opacity-5 rounded-full translate-y-1/4 -translate-x-1/4"></div>
+      <div className="absolute top-0 right-0 w-60 h-60 bg-connectu-beige opacity-30 rounded-full translate-x-1/3 -translate-y-1/4"></div>
+      <div className="absolute bottom-0 left-0 w-48 h-48 bg-connectu-beige opacity-30 rounded-full translate-y-1/4 -translate-x-1/4"></div>
       
       <div className="max-w-6xl mx-auto relative z-10">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-connectu-purple">Our Team</h2>

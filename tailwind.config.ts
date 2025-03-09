@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -26,14 +25,13 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				connectu: {
-					blue: '#6F3BFF', // Updated to the purple-blue RGB: 111, 59, 255
-					lightblue: '#8B5CF6', // Adjusted for consistency
-					cream: '#F5F2EF',    // Off-white cream
-					beige: '#F8F6F3',    // Soft beige
+					blue: '#6F3BFF', // The purple color (RGB: 111, 59, 255)
+					lightblue: '#8B5CF6', // Lighter shade of purple
+					purple: '#6F3BFF', // The same purple color for consistency
+					cream: '#F5F2EF', // Light cream color
+					beige: '#F8F6F3', // Soft beige
 					lightbeige: '#FAF8F5', // Lighter beige for backgrounds
-					offwhite: '#F9F8F6',  // Warm off-white
-					soffowhite: '#FEFCFA', // Softer off-white
-					purple: '#6F3BFF', // Added the same purple for consistency
+					offwhite: '#F9F8F6', // Warm off-white
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
