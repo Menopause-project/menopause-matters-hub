@@ -17,10 +17,8 @@ const Hero = () => {
         <h1 className="text-3xl md:text-5xl font-bold mb-6">
           Your Virtual Menopause Clinic
         </h1>
-        <p className="text-lg md:text-xl mb-6 max-w-3xl mx-auto">
-          Expand your practice with our holistic platform that delivers comprehensive menopause care at your fingertips. 
-          Connect your patients with specialized services in OB/Gyn, Nutrition, Psychology, and Pelvic Floor Physiotherapy—while 
-          you retain complete control over clinical decisions.
+        <p className="text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-medium">
+          Expand Your Practice with Menopause Expert Care
         </p>
         <div className="bg-white/10 p-6 rounded-lg mb-8 backdrop-blur-sm">
           <h2 className="text-xl md:text-2xl font-semibold mb-3">The Menopause Challenge</h2>
