@@ -28,7 +28,7 @@ const Benefits = () => {
           <BenefitCard 
             icon={Users}
             title="Trusted Referral Network"
-            description="Leverage our vetted network to seamlessly connect your patients with specialists in nutrition, fitness, and mental health—ensuring coordinated care with you at the helm."
+            description="Leverage our vetted network to seamlessly connect your patients with specialists in nutrition, mental health, pelvic floor physiotherapy, and more."
           />
           <BenefitCard 
             icon={MessageSquareHeart}
